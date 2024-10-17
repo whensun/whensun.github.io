@@ -3,8 +3,8 @@ body {
     line-height: 1.6;
     margin: 0 15%;
     padding: 0;
-    color: #e0e0e0; /* Warna teks yang lebih terang untuk kontras dengan latar belakang gelap */
-    background-color: #121212; /* Warna latar belakang gelap */
+    color: #e0e0e0;
+    background-color: #121212;
 }
 
 header, nav, section, footer {
@@ -12,19 +12,12 @@ header, nav, section, footer {
 }
 
 header {
-    background: #1b1b1b; /* Warna gelap untuk header */
-    color: #76b947; /* Warna hijau sebagai aksen */
+    background: #1b1b1b;
+    color: #76b947;
     text-align: center;
-    display: flex; /* Menggunakan flexbox untuk mengatur layout */
-    align-items: center; /* Menjaga item di tengah secara vertikal */
-    justify-content: center; /* Menjaga item di tengah secara horizontal */
-}
-
-.profile-pic {
-    width: 100px; /* Atur lebar gambar */
-    height: 100px; /* Atur tinggi gambar */
-    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
-    margin-right: 20px; /* Memberikan ruang antara gambar dan teks */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
@@ -39,17 +32,17 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #76b947; /* Warna hijau untuk link */
+    color: #76b947;
 }
 
 footer {
     text-align: center;
-    background: #1b1b1b; /* Warna gelap untuk footer */
-    color: #76b947; /* Warna hijau sebagai aksen */
+    background: #1b1b1b;
+    color: #76b947;
 }
 
-#about, #projects, #contact {
-    background: #262626; /* Warna latar belakang yang lebih gelap untuk bagian */
+#about, #projects {
+    background: #262626;
     margin: 15px 0;
-    color: #e0e0e0; /* Warna teks yang lebih terang untuk kontras */
+    color: #e0e0e0;
 }
