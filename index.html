@@ -1,40 +1,316 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wensan</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <title>Theodorus Wensan Februanto</title>
+
+    <meta
+        name='description'
+        content='Theodorus Wensan Februanto, PhD student in Computer Science at Arizona State University working on systems security, RISC-V, and automated systems testing.'
+    >
+
+    <link rel='stylesheet' href='style.css'>
 </head>
+
 <body>
-    <header>
-        <div>
-            <h1>Theodorus Wensan Februanto</h1>
-            <p>A Computer Science PhD Student</p>
-            <p><a href="mailto:tfebruan@asu.edu" target="_blank">Email</a></p>
-            <p><a href="https://www.linkedin.com/in/theodorus-wensan-februanto" target="_blank">LinkedIn</a></p>
+
+<header class='site-header'>
+    <div class='container nav-container'>
+
+        <a class='site-name' href='#home'>
+            Theodorus Wensan Februanto
+        </a>
+
+        <nav class='nav'>
+            <a href='#home'>Home</a>
+            <a href='#research'>Research</a>
+            <a href='#publications'>Publications</a>
+            <a href='#updates'>Updates</a>
+            <a href='wensan.pdf'>CV</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+<section id='home' class='hero'>
+    <div class='container hero-content'>
+
+        <div class='profile-column'>
+
+            <img
+                class='profile-photo'
+                src='wensan.jpg'
+                alt='Theodorus Wensan Februanto'
+            >
+
+            <div class='profile-links'>
+                <a href='mailto:tfebruan@asu.edu'>Email</a>
+                <a href='https://github.com/whensun'>GitHub</a>
+                <a href='https://www.linkedin.com/in/theodorus-wensan-februanto/'>LinkedIn</a>
+            </div>
+
         </div>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm passionate about many things. I enjoy computers, badminton, chess, and singing (even though I'm not that good, I still love it). Currently, I'm a PhD student under the supervision of Dr. Adil Ahmad at Arizona State University (ASU). I earned my bachelor's degree in Computer Engineering from Sepuluh Nopember Institute of Technology (ITS Surabaya), the second-ranked institute of technology in Indonesia as of 2023.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects, Employment History, & Awards</h2>
-        <ul>
-            <li>Research Assistant at Arizona State University (Aug. 2024 – Current)</li>
-            <li>Application Support Engineer at The Software Practice (Apr. 2024 – Jul. 2024)</li>
-            <li>Remote Undergraduate Researcher at Arizona State University (Dec. 2022 – Dec. 2023)</li>
-            <li>Science Teacher at Seven7h Education (Surabaya) (Oct. 2021 – Jan. 2023)</li>
-            <li>Laboratory Assistant at Sepuluh Nopember Institute of Technology (July 2022 – June 2023)</li>
-            <li>Valedictorian at Pangudi Luhur Van Lith Boarding High School (May 2019)</li>
-            <li>Participant in National Science Olympiad for High School (Physics) (Apr. 2018)</li>
-            <li>Participant in National Science Olympiad for Middle School (Natural Sciences) (May 2015)</li>
-        </ul>
-    </section>
-    <footer>
-        <p>© 2024 T. Wensan F.</p>
-    </footer>
-    <script src="script.js"></script>
+
+        <div class='bio-column'>
+
+            <p class='eyebrow'>
+                Computer Science PhD Student
+            </p>
+
+            <h1>
+                Theodorus Wensan Februanto
+            </h1>
+
+            <p class='intro'>
+                I work on computer systems and security, with a focus on
+                RISC-V, system software, specification-guided testing, and
+                LLM-assisted analysis.
+            </p>
+
+            <p>
+                I am a PhD student in Computer Science at Arizona State University.
+                My research studies how complex low-level systems can be tested and validated automatically from specifications and system documentation.
+            </p>
+
+            <p>
+                I am especially interested in operating systems, hypervisors,
+                firmware, trusted execution environments, and architectural behavior.
+            </p>
+
+            <p>
+                I am advised by
+                <a href='https://adilahmad17.github.io/'>Prof. Adil Ahmad</a>
+                at the
+                <a href='https://asteriscresearchlab.com/'>ASTeRiSC Research Lab</a>.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<section id='research' class='section'>
+    <div class='container'>
+
+        <div class='section-heading'>
+            <p class='section-number'>01</p>
+            <h2>Research Interests</h2>
+        </div>
+
+        <div class='research-grid'>
+
+            <div class='research-item'>
+                <h3>RISC-V Systems</h3>
+
+                <p>
+                    Understanding and testing architectural behavior across
+                    processors, emulators, operating systems, hypervisors,
+                    and firmware.
+                </p>
+            </div>
+
+            <div class='research-item'>
+                <h3>Specification-Guided Testing</h3>
+
+                <p>
+                    Translating natural language specifications into
+                    machine-checkable rules and executable test cases.
+                </p>
+            </div>
+
+            <div class='research-item'>
+                <h3>Systems Security</h3>
+
+                <p>
+                    Studying isolation, privilege boundaries, context switching,
+                    and security-sensitive architectural state.
+                </p>
+            </div>
+
+            <div class='research-item'>
+                <h3>LLM-assisted Systems Analysis</h3>
+
+                <p>
+                    Using large language models to understand specifications,
+                    source code, and system documentation for automated testing
+                    and security analysis.
+                </p>
+            </div>
+
+            <div class='research-item'>
+                <h3>Firmware and Hardware Interfaces</h3>
+
+                <p>
+                    Analyzing low-level firmware behavior, device registers,
+                    memory-mapped I/O, and hardware-software interaction.
+                </p>
+            </div>
+
+            <div class='research-item'>
+                <h3>Program Analysis</h3>
+
+                <p>
+                    Exploring program analysis techniques for low-level software,
+                    including firmware and kernel-level systems.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id='highlights' class='section'>
+    <div class='container'>
+
+        <div class='section-heading'>
+            <p class='section-number'>02</p>
+            <h2>Research Highlights</h2>
+        </div>
+
+        <div class='highlight-grid'>
+
+            <div class='highlight-item'>
+                <p class='highlight-number'>44</p>
+
+                <h3>RISC-V ISA Conformance Bugs</h3>
+
+                <p>
+                    Discovered 44 previously unknown ISA conformance bugs across
+                    multiple RISC-V emulators, with 39 confirmed or fixed upstream.
+                </p>
+            </div>
+
+            <div class='highlight-item'>
+                <p class='highlight-number'>13</p>
+
+                <h3>Context-Switch Isolation Bugs</h3>
+
+                <p>
+                    Preliminary results identified 13 bugs across 74 evaluated
+                    registers in OpenSBI, Linux/KVM, Penglai, and ACE-RISC-V.
+                    Findings have been reported to the respective maintainers.
+                </p>
+            </div>
+
+            <div class='highlight-item'>
+                <p class='highlight-number'>PoC</p>
+
+                <h3>Security Validation</h3>
+
+                <p>
+                    Developing attack PoCs for exposed architectural state,
+                    including performance counters such as time in U-mode and VS-mode.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id='publications' class='section'>
+    <div class='container'>
+
+        <div class='section-heading'>
+            <p class='section-number'>02</p>
+            <h2>Publications</h2>
+        </div>
+
+        <article class='publication'>
+
+            <p class='publication-year'>
+                2026
+            </p>
+
+            <div>
+                <h3>
+                    Efficient Fine-Grained Kernel Auditing using Augmented
+                    Reference Behavior Analysis and Virtualized Selective Tracing
+                </h3>
+
+                <p class='authors'>
+                    Chuqi Zhang, Spencer Faith, Feras Al-Qassas,
+                    <strong>Theodorus Wensan Februanto</strong>,
+                    Zhenkai Liang, and Adil Ahmad
+                </p>
+
+                <p class='venue'>
+                    IEEE Symposium on Security and Privacy, 2026
+                </p>
+            </div>
+
+        </article>
+
+    </div>
+</section>
+
+<section id='updates' class='section'>
+    <div class='container'>
+
+        <div class='section-heading'>
+            <p class='section-number'>03</p>
+            <h2>Recent Updates</h2>
+        </div>
+
+        <div class='updates'>
+
+            <div class='update'>
+                <span>2026</span>
+
+                <p>
+                    Paper accepted at the IEEE Symposium on Security and Privacy.
+                </p>
+            </div>
+
+            <div class='update'>
+                <span>2024</span>
+
+                <p>
+                    Started my PhD in Computer Science at Arizona State University.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class='contact-section'>
+    <div class='container contact-content'>
+
+        <div>
+            <p class='eyebrow'>
+                Contact
+            </p>
+
+            <a class='contact-button' href='mailto:tfebruan@asu.edu'>
+                Email Me
+            </a>
+        </div>
+        
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class='container footer-content'>
+
+        <p>
+            © 2026 Theodorus Wensan Februanto
+        </p>
+
+        <p>
+            PhD Student · Arizona State University
+        </p>
+
+    </div>
+</footer>
+
 </body>
 </html>
