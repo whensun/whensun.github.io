@@ -8,7 +8,7 @@
 
     <meta
         name='description'
-        content='Theodorus Wensan Februanto, PhD student in Computer Science at Arizona State University working on systems security, RISC-V, and automated systems testing.'
+        content='Theodorus Wensan Februanto is a Computer Science PhD student at Arizona State University researching RISC-V architecture, systems security, specification-guided testing, and LLM-assisted software verification.'
     >
 
     <link rel='stylesheet' href='style.css'>
@@ -26,6 +26,7 @@
         <nav class='nav'>
             <a href='#home'>Home</a>
             <a href='#research'>Research</a>
+            <a href='#highlights'>Highlights</a>
             <a href='#publications'>Publications</a>
             <a href='#updates'>Updates</a>
             <a href='wensan.pdf'>CV</a>
@@ -66,19 +67,27 @@
             </h1>
 
             <p class='intro'>
-                I work on computer systems and security, with a focus on
-                RISC-V, system software, specification-guided testing, and
-                LLM-assisted analysis.
+                My research focuses on computer architecture, systems security,
+                software verification, and LLM-assisted testing.
             </p>
 
             <p>
                 I am a PhD student in Computer Science at Arizona State University.
-                My research studies how complex low-level systems can be tested and validated automatically from specifications and system documentation.
+                I develop automated techniques to test computer systems against
+                architectural specifications and software security requirements.
             </p>
 
             <p>
-                I am especially interested in operating systems, hypervisors,
-                firmware, trusted execution environments, and architectural behavior.
+                My work involves RISC-V processors, emulators, operating systems,
+                hypervisors, firmware, and trusted execution environments.
+                I am particularly interested in using large language models
+                to automate specification analysis and test case generation.
+            </p>
+
+            <p>
+                My first-author paper on RISC-V ISA conformance testing
+                has been accepted at the International Conference on
+                Software Engineering (ICSE 2027).
             </p>
 
             <p>
@@ -142,20 +151,22 @@
             </div>
 
             <div class='research-item'>
-                <h3>Firmware and Hardware Interfaces</h3>
+                <h3>Operating Systems and Virtualization</h3>
 
                 <p>
-                    Analyzing low-level firmware behavior, device registers,
-                    memory-mapped I/O, and hardware-software interaction.
+                    Testing operating systems, hypervisors, and firmware,
+                    with a focus on context switching, privilege transitions,
+                    and architectural state isolation.
                 </p>
             </div>
 
             <div class='research-item'>
-                <h3>Program Analysis</h3>
+                <h3>Computer Architecture and Verification</h3>
 
                 <p>
-                    Exploring program analysis techniques for low-level software,
-                    including firmware and kernel-level systems.
+                    Developing automated validation techniques for instruction
+                    set architectures, architectural state, reference models,
+                    and processor behavior.
                 </p>
             </div>
 
@@ -186,25 +197,26 @@
             </div>
 
             <div class='highlight-item'>
-                <p class='highlight-number'>13</p>
+                <p class='highlight-number'>OS</p>
 
-                <h3>Context-Switch Isolation Bugs</h3>
+                <h3>Systems Isolation Testing</h3>
 
                 <p>
-                    Preliminary results identified 13 bugs across 74 evaluated
-                    registers in OpenSBI, Linux/KVM, Penglai, and ACE-RISC-V.
-                    Findings have been reported to the respective maintainers.
+                    Developing automated tests to evaluate architectural
+                    state isolation across operating systems, hypervisors,
+                    firmware, and trusted execution environments.
                 </p>
             </div>
 
             <div class='highlight-item'>
-                <p class='highlight-number'>PoC</p>
+                <p class='highlight-number'>LLM</p>
 
-                <h3>Security Validation</h3>
+                <h3>Automated Specification Analysis</h3>
 
                 <p>
-                    Developing attack PoCs for exposed architectural state,
-                    including performance counters such as time in U-mode and VS-mode.
+                    Using large language models to extract architectural
+                    requirements, derive testing rules, and generate
+                    executable test cases for system validation.
                 </p>
             </div>
 
@@ -217,9 +229,34 @@
     <div class='container'>
 
         <div class='section-heading'>
-            <p class='section-number'>02</p>
+            <p class='section-number'>03</p>
             <h2>Publications</h2>
         </div>
+
+        <article class='publication'>
+
+            <p class='publication-year'>
+                2027
+            </p>
+
+            <div>
+                <h3>
+                    Specification-Guided Detection of ISA Conformance Bugs
+                    in RISC-V Emulators
+                </h3>
+
+                <p class='authors'>
+                    <strong>Theodorus Wensan Februanto</strong>
+                    (First Author)
+                </p>
+
+                <p class='venue'>
+                    International Conference on Software Engineering
+                    (ICSE 2027) — Accepted
+                </p>
+            </div>
+
+        </article>
 
         <article class='publication'>
 
@@ -240,7 +277,7 @@
                 </p>
 
                 <p class='venue'>
-                    IEEE Symposium on Security and Privacy, 2026
+                    IEEE Symposium on Security and Privacy (S&amp;P 2026)
                 </p>
             </div>
 
@@ -253,17 +290,37 @@
     <div class='container'>
 
         <div class='section-heading'>
-            <p class='section-number'>03</p>
+            <p class='section-number'>04</p>
             <h2>Recent Updates</h2>
         </div>
 
         <div class='updates'>
 
             <div class='update'>
+                <span>Oct 2026</span>
+
+                <p>
+                    Our paper "Specification-Guided Detection of ISA
+                    Conformance Bugs in RISC-V Emulators" (OculusISA)
+                    has been accepted at ICSE 2027!
+                </p>
+            </div>
+
+            <div class='update'>
                 <span>2026</span>
 
                 <p>
-                    Paper accepted at the IEEE Symposium on Security and Privacy.
+                    Co-authored a paper published at the IEEE Symposium
+                    on Security and Privacy (S&amp;P 2026).
+                </p>
+            </div>
+
+            <div class='update'>
+                <span>2026</span>
+
+                <p>
+                    Expanded my research on automated system verification
+                    and context-switch isolation testing.
                 </p>
             </div>
 
@@ -284,7 +341,7 @@
                 Email Me
             </a>
         </div>
-        
+
     </div>
 </section>
 
